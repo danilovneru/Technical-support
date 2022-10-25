@@ -1,0 +1,39 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body {
+    margin: 10px;
+}
+ul, li {
+    list-style: none;
+}
+.header {
+   border: 1px solid #393939; 
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav {
+    border: 1px solid #393939;
+    padding: 10px;  
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main {
+    border: 1px solid #393939;
+    padding: 10px;
+}
+.section {
+    border: 1px solid #393939;
+    padding: 10px; 
+}
+.footer {
+   border: 1px solid #393939; 
+   padding: 10px;
+}
